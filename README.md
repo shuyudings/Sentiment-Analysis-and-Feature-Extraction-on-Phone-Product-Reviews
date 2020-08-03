@@ -1,0 +1,5 @@
+# Sentiment-Analysis-and-Feature-Extraction-on-Phone-Product-Reviews
+CSE 6240 Project
+
+## Abstraction
+Customer reviews not only help buyers to make better purchase decision but also enable companies to improve their products. In this project, we plan to train an LSTM network on the Amazon Reviews: Unlocked Mobile Phone from Kaggle data set to classify the correct customer sentiment from given product reviews. Besides, we plan to perform characteristic extraction on the given reviews and summarize the customers' opinions on those characteristics and give business insights to the companies. The three baselines we used to compare with our LSTM model are Random Forest, K-Nearest Neighbors (KNN), and Naive Bayes. Our LSTM model outperformed the baselines with the highest accuracy (0.877), precision (0.895) and F1 (0.874) scores and the tied highest recall (0.852) with KNN. We also successfully extracted features for the top 7 phone brands with most reviews and summarized customers' opinions on those features for each brand. The summaries we provide can give good business insights to phone manufacturers. 
